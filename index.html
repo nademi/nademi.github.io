@@ -4,73 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yousef Nademi's Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            padding-top: 56px; /* Offset for fixed navbar */
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
+        .section-padding {
+            padding: 60px 0;
         }
-        h1, h2 {
-            color: #333;
+        footer {
+            background-color: #f5f5f5;
+            padding: 40px 0;
         }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8em;
+        .footer-text {
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Yousef Nademi</h1>
-        <p>Machine Learning Engineer | MSc student in Computing Science | Ph.D. in Chemical Engineering</p>
-        <p>Email: nademi@ualberta.ca | LinkedIn: yousefnademi | GitHub: nademi</p>
-        
-        <div class="section">
-            <h2>Highlights</h2>
-            <ul>
-                <li>Demonstrated mastery of Machine Learning (ML), Deep Learning (DL), signal processing, Time Series Forecasting, and Natural Language Processing (NLP) through +4 years of experience as a Machine Learning Engineer and Data Scientist.</li>
-                <li>Applied state-of-the-art Time Series Forecasting models, including deep learning models such as NBEATS and NHITS, to deliver accurate forecasts and predictions for multiple projects.</li>
-                <li>Deployed ML projects using Azure cloud service, and created Multi-Service Dashboard for various ML projects, resulting in streamlined workflows and improved collaboration.</li>
-                <li>Developed expertise in NLP tasks, including Text Classification, Sequence Labeling, Machine Translation, and Transformers, resulting in high-performing models and improved accuracy.</li>
-                <li>Applied eXplainable Artificial Intelligence (XAI) methods to detect relevant regions of Electrocardiogram (ECG) signals, resulting in more accurate diagnoses.</li>
-                <li>Published 7 scientific articles in high-impact factor journals, showcasing strong writing skills and a deep understanding of complex technical concepts.</li>
-                <li>Demonstrated proficiency in object-oriented programming in Python and ML platforms including TensorFlow, Keras, and Scikit-learn in supervised, semi-supervised, and unsupervised learning, resulting in high-performing models and improved accuracy.</li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>Master of Science, Computer Science</strong> - University of Alberta (UoA), Edmonton, Canada (January 2021--Present)</li>
-                <li><strong>Doctor of Philosophy, Chemical Engineering</strong> - University of Alberta (UoA), Edmonton, Canada (2016--2021)</li>
-                <li><strong>Master of Science, Chemical Engineering</strong> - Amirkabir University of Technology, Tehran, Iran (2010--2012)</li>
-                <li><strong>Bachelor of Science, Chemical Engineering</strong> - Arak University, Arak, Iran (2006--2010)</li>
-            </ul>
-        </div>
 
-        <!-- Add more sections for Work Experience, Skills, etc., as needed -->
-
-        <div class="footer">
-            <p>&copy; 2023 Yousef Nademi. All rights reserved.</p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Yousef Nademi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#highlights">Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container section-padding" id="highlights">
+        <!-- Highlights Section -->
+        <!-- Include your highlights here -->
     </div>
+
+    <div class="container section-padding" id="education">
+        <!-- Education Section -->
+        <!-- Include your education here -->
+    </div>
+
+    <div class="container section-padding" id="experience">
+        <!-- Experience Section -->
+        <!-- Include your experience here -->
+    </div>
+
+    <div class="container section-padding" id="skills">
+        <!-- Skills Section -->
+        <!-- Include your skills here -->
+    </div>
+
+    <div class="container section-padding" id="contact">
+        <!-- Contact Section -->
+        <!-- Include a contact form here -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="footer-text">&copy; 2023 Yousef Nademi. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
